@@ -1,0 +1,1 @@
+export { StyledBurger } from './StyledBurger'
