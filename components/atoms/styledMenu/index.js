@@ -1,0 +1,1 @@
+export { StyledMenu } from './StyledMenu'
