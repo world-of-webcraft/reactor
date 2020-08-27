@@ -4,7 +4,7 @@ import { StyledIcon_ID0 } from '../../atoms';
 
 export const ImageAnchor_ID0 = ({ ...props }) => {
     return (
-        <StyledAnchor_ID0 {...props} padding={props.padding}>
+        <StyledAnchor_ID0 {...props}>
             <StyledIcon_ID0 src={props.imageSrc}></StyledIcon_ID0>
         </StyledAnchor_ID0>
     );
