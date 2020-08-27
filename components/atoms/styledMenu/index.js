@@ -1,1 +1,0 @@
-export { StyledMenu } from './StyledMenu'
