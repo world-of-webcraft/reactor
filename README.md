@@ -6,7 +6,7 @@ First row of commit message should be one of the following:
  * Update of <atom | molecule | compound | organism | some sort of short message of what has been updated>
  * Remove of <atom | molecule | compound | organism | some sort of short message of what has been Removed>
 
-Second row shold be:
+Second row should be:
  * Just a empty line
 
 Third row and so forth apply to the following rules:
