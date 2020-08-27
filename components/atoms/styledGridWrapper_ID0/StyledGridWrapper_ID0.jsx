@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledBurger_ID0 = styled.div`
+export const StyledGridWrapper_ID0 = styled.div`
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 650px auto 100px;
