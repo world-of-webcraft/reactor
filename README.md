@@ -9,3 +9,7 @@ Rules for commit messages:
 * Third row and so forth apply to the following rules:
  * Max 30 characters before line break
  * The rest is up to you! Preferably some sort of description of what has been done
+ 
+ Rules of development:
+ * If you feel like you need a separate branch to work on and then merge this to master go ahead
+ * If you feel like hacking directly on the master branch... No guts no glory!
