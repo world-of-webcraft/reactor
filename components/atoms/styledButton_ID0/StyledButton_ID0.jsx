@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+/**
+ * Styled button with hover properties and color properties
+ * derived from a theme
+ */
+
 export const StyledButton_ID0 = styled.button`
     background: ${({ theme }) => theme.main.background};
     color: ${({ theme }) => theme.main};

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+/**
+ * Simple styled button with black border and rounded edges
+ */
+
 export const StyledButton_ID1 = styled.button`
     border-radius: 20px;
     color: black;

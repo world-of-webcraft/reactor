@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+/**
+ * A styled button that acts as a burger menu button
+ */
+
 export const StyledBurger_ID0 = styled.button`
 
     position: absolute;
