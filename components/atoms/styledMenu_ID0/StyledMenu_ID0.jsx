@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+/**
+ * Styled navigation that can be used as a drawer
+ */
+
 export const StyledMenu_ID0 = styled.nav`
 
     display: flex;

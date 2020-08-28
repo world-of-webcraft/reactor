@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom'
 
+/**
+ * Styled navigation link that can be used in a navigation
+ */
 
 export const StyledMenuLink_ID0 = styled(NavLink)`
   display: flex;
