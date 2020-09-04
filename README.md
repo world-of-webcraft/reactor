@@ -10,6 +10,7 @@ Rules of development:
 * Components should be appended with an ID< some number greater than the greates occuring number for that type of component > e.i styledButton_ID0 styledButton_ID1 and so forth.
 * Components should follow the following structure: Each component is place in a directory with the components name incl. the appended ID< some number > starting with a lower case character together with a index.js file which exports the component e.i export { StyledMenu_ID0 } from './StyledMenu_ID0' | each components .jsx file should be the components name  incl. the appended ID< some number > starting with a upper case character.
 * The bullit regarding component naming and structure applies for themes as well.
+* Components that has special util functionallity such as access control hooks and so forth, should be placed in the utils folder.
 * If you feel like you need a separate branch to work on and then merge this to master go ahead. However the following rules must be obliged: Branches should have the following naming: dev-reactor-id< some number starting from 1 > number 0 is reserved as a testing branch which anyone can use.
 * If you feel like hacking directly on the master branch... No guts no glory!
 
@@ -26,3 +27,5 @@ Second row should be:
 Third row and so forth apply to the following rules:
 * Max 30 characters before line break.
 * The rest is up to you! Preferably some sort of description of what has been done.
+
+A note that is worth remembering TypeScript is nice :)
