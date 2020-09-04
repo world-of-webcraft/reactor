@@ -1,4 +1,9 @@
 # reactor
+Welcome to the Reactor component library!
+
+All contributions are much welcome. If you have something just push it in the misc folder and the mages of webcraft will do the rest. If you feel like applying to the rules of development just see ----->
+
+
 Rules of development:
 
 * Components should follow atomic design as followed: If a component is a styled component or a animated component it is an atom | If a component is composed of one or more atom/s it is a molecule | If a component is composed of one or more atom/s and one or more molecule/s it is a compound | If a component is composed of one or more atom/s and one or more molecule/s and one or more compound/s it is an organism.
