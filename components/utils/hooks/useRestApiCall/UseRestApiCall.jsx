@@ -35,7 +35,6 @@ export constuseRestApiCall = (url, method, headers = { 'Content-Type': 'applicat
             )
     }, [requestData])
 
-    /*Anropar api*/
     useEffect(() => {
         if (!isLoaded) {
             fetchData()
