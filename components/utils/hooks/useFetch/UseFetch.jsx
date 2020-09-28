@@ -23,7 +23,7 @@ export const useFetch = (url, initialValue = null, options) => {
     }, []);
 
     useEffect(() => {
-        if (!data) {
+        if (!loading) {
             getData();
         }
     }, [loading]);
