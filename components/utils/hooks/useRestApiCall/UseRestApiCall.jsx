@@ -4,7 +4,7 @@ export const useRestApiCall = (apiURL) => {
   const [hasError, setErrors] = useState(false);
   const [data, setData] = useState({});
 
-  async function fetchData(apiURL) {
+  fetchData = async (apiURL) => {
     const res = await fetch(apiURL);
     res
       .json()
