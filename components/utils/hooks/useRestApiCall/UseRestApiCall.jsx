@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-export constuseRestApiCall = (url, method, headers = { 'Content-Type': 'application/json' }, body) => {
+export const useRestApiCall = (url, method, headers = { 'Content-Type': 'application/json' }, body) => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [data, setData] = useState([]);
