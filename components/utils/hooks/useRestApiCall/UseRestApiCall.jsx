@@ -16,7 +16,7 @@ export const useRestApiCall = (apiURL) => {
     fetchData();
   });
   if (hasError) {
-    return JSON.stringify(hasError);
+    hasError;
   }
-  return JSON.stringify(data);
+  return data;
 }
