@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const UseRestApiCall = (apiURL) => {
+export const useRestApiCall = (apiURL) => {
   const [hasError, setErrors] = useState(false);
   const [data, setData] = useState({});
 
