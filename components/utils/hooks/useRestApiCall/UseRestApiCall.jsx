@@ -22,7 +22,6 @@ export const useRestApiCall = (apiURL) => {
                     setIsLoaded(true);
                     setError(error);
                 }
-
             )
     }, [url]);
     return { data: data, isLoaded: isLoaded, error: error };
