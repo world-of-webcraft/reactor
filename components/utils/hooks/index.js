@@ -1,2 +1,2 @@
-export * from './useRestApiCall'
+export * from './useFetch'
 export * from './useInput'
