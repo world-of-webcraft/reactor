@@ -1,1 +1,1 @@
-export { UseRestApiCall } from './UseRestApiCall'
+export { useRestApiCall } from './UseRestApiCall'
