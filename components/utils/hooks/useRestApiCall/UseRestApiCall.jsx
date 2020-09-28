@@ -1,28 +1,46 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
-export const useRestApiCall = (apiURL) => {
-    const [url] = useState(apiURL)
+export constuseRestApiCall = (url, method, headers = { 'Content-Type': 'application/json' }, body) => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [data, setData] = useState([]);
 
-    useEffect(() => {
-        if (!url) return
-        fetch(url)
+    const requestData = {
+        url: url,
+        method: method,
+        headers: headers,
+        body: body
+    }
+
+    const fetchData = useCallback(() => {
+        const requestOptions = {
+            method: requestData.method,
+            headers: requestData.headers,
+            body: JSON.stringify(requestData.body)
+        }
+        if (!requestData.url) {
+            return
+        }
+        fetch(requestData.url, requestOptions)
             .then(res => res.json())
             .then(
                 (result) => {
                     setIsLoaded(true);
                     setData(result);
                 },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
                 (error) => {
                     setIsLoaded(true);
                     setError(error);
                 }
             )
-    }, [url]);
+    }, [requestData])
+
+    /*Anropar api*/
+    useEffect(() => {
+        if (!isLoaded) {
+            fetchData()
+        }
+    }, [isLoaded, fetchData])
+
     return { data: data, isLoaded: isLoaded, error: error };
 }
