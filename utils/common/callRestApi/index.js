@@ -1,0 +1,1 @@
+export {callRestApi} from './CallRestApi'
