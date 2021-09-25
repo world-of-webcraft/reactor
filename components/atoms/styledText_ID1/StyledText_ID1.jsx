@@ -8,7 +8,7 @@ import styled from 'styled-components';
   * props:
   * borderRadius: border-radius
   */
-export const StyledText_ID0 = styled.p`
+export const StyledText_ID1 = styled.p`
     background-color: ${({ theme }) => {
     if (theme) {
       if (theme.primaryLight) {
