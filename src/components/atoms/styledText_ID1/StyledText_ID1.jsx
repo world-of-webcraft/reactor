@@ -12,12 +12,13 @@ export const StyledText_ID1 = styled.p`
     background-color: ${({ theme }) => {
     if (theme) {
       if (theme.primaryLight) {
-        theme.primaryLight
+        return theme.primaryLight
       } else if (theme.primaryDark) {
-        theme.primaryDark
+        return theme.primaryDark
       }
     }
   }};
   border-style: solid;
+  padding: 20px;
   border-radius: ${({borderRadius}) => borderRadius ? borderRadius : "25px"};
 `

@@ -29,7 +29,7 @@ export const StyledMenu_ID0 = styled.nav`
         padding: 2rem 0;
         font-weight: bold;
         letter-spacing: 0.5rem;
-        color: ${({ theme }) => theme.main;
+        color: ${({ theme }) => theme.main};
         text-decoration: none;
         transition: color 0.3s linear;
 
