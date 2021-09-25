@@ -20,8 +20,13 @@ Rules of development:
  * <example-property1: example-value1> e.g flex-direction: column
  * <example-property2: example-value2> e.g align-items: center
  * ...
+ * props:
+ * <examplePropery1: example-property1> e.i name of prop and what property it maps to
+ * <examplePropery2: example-property2>
+ * ...
  */
 ```
+* If custom props is added to a component it should follow the following naming convention: exampleProperty e.i the css property but in camelCase syntax.
 * If you feel like you need a separate branch to work on and then merge this to master go ahead. However the following rules must be obliged: Branches should have the following naming: dev-reactor-id< some number starting from 1 > number 0 is reserved as a testing branch which anyone can use.
 * If you feel like hacking directly on the master branch... No guts no glory!
 
