@@ -7,12 +7,12 @@ import styled from 'styled-components';
 
 export const StyledGridWrapper_ID0 = styled.div`
     display: grid;
-    grid-template-columns: ${({gridTemplateCols}) => 
-                                gridTemplateCols ? gridTemplateCols : "repeat(12, 1fr)" };
-    grid-template-rows: ${({gridTemplateRows}) => 
-                            gridTemplateRows ? gridTemplateRows : "650px auto 100px" };
+    grid-template-columns: ${({ gridTemplateCols }) =>
+        gridTemplateCols ? gridTemplateCols : "repeat(12, 1fr)"};
+    grid-template-rows: ${({ gridTemplateRows }) =>
+        gridTemplateRows ? gridTemplateRows : "auto"};
     height: 100%;
-    grid-template-areas: ${({gridTemplateAreas}) => 
-                                gridTemplateAreas ? gridTemplateAreas : 
-                                '"h h h h h h h h h h h h" "m m m m m m m m m m m m" "f f f f f f f f f f f f"'};
+    grid-template-areas: ${({ gridTemplateAreas }) =>
+        gridTemplateAreas ? gridTemplateAreas :
+            '"h h h h h h h h h h h h" "m m m m m m m m m m m m" "f f f f f f f f f f f f"'};
 `
