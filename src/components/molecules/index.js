@@ -1,3 +1,3 @@
-export * from './imageAnchor_ID0' 
-export * from './menuLink_ID0'
-export * from './burger_ID0'
+export * from './imageAnchorID0' 
+export * from './menuLinkID0'
+export * from './burgerID0'

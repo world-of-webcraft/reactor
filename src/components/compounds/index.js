@@ -1,1 +1,1 @@
-export * from './menu_ID0'
+export * from './menuID0'

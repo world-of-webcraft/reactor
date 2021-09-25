@@ -1,1 +1,1 @@
-export * from './continuousSlider_ID0' 
+export * from './continuousSliderID0' 
