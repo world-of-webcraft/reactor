@@ -5,7 +5,7 @@ import styled from 'styled-components';
  * with default column template and row template
  */
 
-export const StyledGridWrapper_ID0 = styled.div`
+export const StyledGridContainer_ID0 = styled.div`
     display: grid;
     grid-template-columns: ${({ gridTemplateCols }) =>
         gridTemplateCols ? gridTemplateCols : "repeat(12, 1fr)"};
