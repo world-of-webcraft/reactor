@@ -5,5 +5,5 @@ import styled from 'styled-components';
  */
 
 export const StyledMain_ID0 = styled.main`
-grid-area: ${({gridArea}) => gridArea ? gridArea : "m"};;
+grid-area: ${({gridArea}) => gridArea ? gridArea : "m"};
 `;
