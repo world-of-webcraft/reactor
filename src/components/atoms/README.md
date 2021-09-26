@@ -131,4 +131,25 @@
  * borderRadius: border-radius
  */
 ```
-
+* StyledHeaderID1:
+```javascript
+/**
+ * Header with default grid area h and with theme based colors
+ * for background and border if theme is provided and
+ * prop useThme is set to true. The prop darkMode will
+ * toggle between theme.primaryLight and theme.primaryDark.
+ * Can have a given background img and a given max/min height.
+ * default value:
+ * border-radius: 5px
+ * padding: 25px
+ * min-height: 
+ * max-height: 500px
+ * props:
+ * useTheme: set to true if theme based colors should be used
+ * darMode: set to toggle from theme.primaryLight to theme.primaryDark
+ * borderRadius: border-radius
+ * padding: padding
+ * minHeight: min-height
+ * max-height: max-height
+ */
+```
