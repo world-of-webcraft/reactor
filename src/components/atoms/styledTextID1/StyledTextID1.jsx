@@ -20,5 +20,5 @@ export const StyledTextID1 = styled.p`
   }};
   border-style: solid;
   padding: 20px;
-  border-radius: ${({borderRadius}) => borderRadius ? borderRadius : "25px"};
+  border-radius: ${({ borderRadius }) => borderRadius ? borderRadius : "25px"};
 `
