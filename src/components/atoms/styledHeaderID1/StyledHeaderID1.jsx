@@ -20,7 +20,7 @@ import styled from 'styled-components';
  * max-height: max-height
  */
 
- const setBackgroundTheme = (theme, darkMode) => {
+const setBackgroundTheme = (theme, darkMode) => {
     if (theme) {
         if (!darkMode) {
             return theme.primaryLight
@@ -51,7 +51,7 @@ const setColorTheme = (theme, darkMode) => {
 }
 
 export const StyledHeaderID1 = styled.header`
-    grid-area: ${({gridArea}) => gridArea ? gridArea : "h"};
+    grid-area: ${({ gridArea }) => gridArea ? gridArea : "h"};
     padding: ${({ padding }) => padding ? padding : "25px"};
     border-style: solid;
     background-size: cover;
@@ -59,7 +59,7 @@ export const StyledHeaderID1 = styled.header`
     border-radius: ${({ borderRadius }) => borderRadius ? borderRadius : "5px"}; 
     border-color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setBorderTheme(theme, darkMode) : "black"};
     background-color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setBackgroundTheme(theme, darkMode) : "white"};
-    background-image: ${({background}) => 'url("' + background + '")'};
-    max-height: ${({maxHeight}) => maxHeight ? maxHeight : "500px"};
-    min-height: ${({minHeight}) => minHeight};
+    background-image: ${({ background }) => 'url("' + background + '")'};
+    max-height: ${({ maxHeight }) => maxHeight ? maxHeight : "500px"};
+    min-height: ${({ minHeight }) => minHeight};
 `;
