@@ -52,6 +52,6 @@ export const StyledContainerID0 = styled.div`
     border-style: solid;
     color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setColorTheme(theme, darkMode) : "black"};
     border-radius: ${({ borderRadius }) => borderRadius ? borderRadius : "5px"}; 
-    border-color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setBorderTheme(theme, darkMode) : "black"};
-    background-color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setBackgroundTheme(theme, darkMode) : "white"};
+    border-color: ${({ theme, darkMode, useTheme }) => theme && useTheme === "true" ? setBorderTheme(theme, darkMode) : "black"};
+    background-color: ${({ theme, darkMode, useTheme }) => theme && useTheme === "true" ? setBackgroundTheme(theme, darkMode) : "white"};
 `;
