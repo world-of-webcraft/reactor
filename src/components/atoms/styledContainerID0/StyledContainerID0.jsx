@@ -10,7 +10,7 @@ import styled from 'styled-components';
  * padding: 25px
  * props:
  * useTheme: set to true if theme based colors should be used
- * darMode: set to toggle from theme.primaryLight to theme.primaryDark
+ * darkMode: set to toggle from theme.primaryLight to theme.primaryDark
  * borderRadius: border-radius
  * padding: padding
  */
