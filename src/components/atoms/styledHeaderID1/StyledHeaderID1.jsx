@@ -54,6 +54,7 @@ export const StyledHeaderID1 = styled.header`
     grid-area: ${({gridArea}) => gridArea ? gridArea : "h"};
     padding: ${({ padding }) => padding ? padding : "25px"};
     border-style: solid;
+    background-size: cover;
     color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setColorTheme(theme, darkMode) : "black"};
     border-radius: ${({ borderRadius }) => borderRadius ? borderRadius : "5px"}; 
     border-color: ${({ theme, darkMode, useTheme }) => theme && useTheme == "true" ? setBorderTheme(theme, darkMode) : "black"};
